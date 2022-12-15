@@ -24,6 +24,8 @@
 		1D0FC585294B5022003EE5DE /* CenouraPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0FC584294B5022003EE5DE /* CenouraPresenter.swift */; };
 		1D0FC589294B509F003EE5DE /* CenouraFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0FC588294B509F003EE5DE /* CenouraFactory.swift */; };
 		1D0FC58B294B50D8003EE5DE /* BatataFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0FC58A294B50D8003EE5DE /* BatataFactory.swift */; };
+		1D0FC58D294BA427003EE5DE /* BatataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0FC58C294BA427003EE5DE /* BatataService.swift */; };
+		1D0FC58F294BAD11003EE5DE /* CenouraService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0FC58E294BAD11003EE5DE /* CenouraService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,8 @@
 		1D0FC584294B5022003EE5DE /* CenouraPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenouraPresenter.swift; sourceTree = "<group>"; };
 		1D0FC588294B509F003EE5DE /* CenouraFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenouraFactory.swift; sourceTree = "<group>"; };
 		1D0FC58A294B50D8003EE5DE /* BatataFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatataFactory.swift; sourceTree = "<group>"; };
+		1D0FC58C294BA427003EE5DE /* BatataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatataService.swift; sourceTree = "<group>"; };
+		1D0FC58E294BAD11003EE5DE /* CenouraService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenouraService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +175,7 @@
 			isa = PBXGroup;
 			children = (
 				1D0FC588294B509F003EE5DE /* CenouraFactory.swift */,
+				1D0FC58E294BAD11003EE5DE /* CenouraService.swift */,
 			);
 			path = Workers;
 			sourceTree = "<group>";
@@ -179,6 +184,7 @@
 			isa = PBXGroup;
 			children = (
 				1D0FC58A294B50D8003EE5DE /* BatataFactory.swift */,
+				1D0FC58C294BA427003EE5DE /* BatataService.swift */,
 			);
 			path = Workers;
 			sourceTree = "<group>";
@@ -318,6 +324,7 @@
 				1D0FC54D294B4EEA003EE5DE /* ViewController.swift in Sources */,
 				1D0FC583294B4FF9003EE5DE /* CenouraInteractor.swift in Sources */,
 				1D0FC57B294B4F7A003EE5DE /* BatataViewController.swift in Sources */,
+				1D0FC58D294BA427003EE5DE /* BatataService.swift in Sources */,
 				1D0FC589294B509F003EE5DE /* CenouraFactory.swift in Sources */,
 				1D0FC549294B4EEA003EE5DE /* AppDelegate.swift in Sources */,
 				1D0FC57D294B4FB4003EE5DE /* BatataInteractor.swift in Sources */,
@@ -325,6 +332,7 @@
 				1D0FC54B294B4EEA003EE5DE /* SceneDelegate.swift in Sources */,
 				1D0FC57F294B4FC1003EE5DE /* BatataPresenter.swift in Sources */,
 				1D0FC58B294B50D8003EE5DE /* BatataFactory.swift in Sources */,
+				1D0FC58F294BAD11003EE5DE /* CenouraService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,6 +7,9 @@
 
 protocol BatataPresenterProtocol {
     func set(viewController: BatataViewControllerProtocol?)
+    func present(preparedDish: String)
+    func presentLoading()
+    func hideLoading()
 }
 
 final class BatataPresenter: BatataPresenterProtocol {
@@ -14,5 +17,17 @@ final class BatataPresenter: BatataPresenterProtocol {
     
     func set(viewController: BatataViewControllerProtocol?) {
         self.viewController = viewController
+    }
+    
+    func present(preparedDish: String) {
+        viewController?.show(preparedDish: preparedDish)
+    }
+    
+    func presentLoading() {
+        viewController?.displayLoading()
+    }
+    
+    func hideLoading() {
+        viewController?.hideLoading()
     }
 }
