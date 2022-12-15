@@ -13,7 +13,6 @@
 		1D0FC550294B4EEA003EE5DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D0FC54E294B4EEA003EE5DE /* Main.storyboard */; };
 		1D0FC552294B4EEB003EE5DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D0FC551294B4EEB003EE5DE /* Assets.xcassets */; };
 		1D0FC555294B4EEB003EE5DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D0FC553294B4EEB003EE5DE /* LaunchScreen.storyboard */; };
-		1D0FC560294B4EEC003EE5DE /* ViewArchitectureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0FC55F294B4EEC003EE5DE /* ViewArchitectureTests.swift */; };
 		1D0FC56A294B4EEC003EE5DE /* ViewArchitectureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0FC569294B4EEC003EE5DE /* ViewArchitectureUITests.swift */; };
 		1D0FC56C294B4EEC003EE5DE /* ViewArchitectureUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0FC56B294B4EEC003EE5DE /* ViewArchitectureUITestsLaunchTests.swift */; };
 		1D0FC57B294B4F7A003EE5DE /* BatataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0FC57A294B4F7A003EE5DE /* BatataViewController.swift */; };
@@ -26,6 +25,17 @@
 		1D0FC58B294B50D8003EE5DE /* BatataFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0FC58A294B50D8003EE5DE /* BatataFactory.swift */; };
 		1D0FC58D294BA427003EE5DE /* BatataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0FC58C294BA427003EE5DE /* BatataService.swift */; };
 		1D0FC58F294BAD11003EE5DE /* CenouraService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0FC58E294BAD11003EE5DE /* CenouraService.swift */; };
+		1D0FC593294BB2BE003EE5DE /* BatataPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0FC592294BB2BE003EE5DE /* BatataPresenterTests.swift */; };
+		1D0FC595294BB2E0003EE5DE /* CenouraPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0FC594294BB2E0003EE5DE /* CenouraPresenterTests.swift */; };
+		1D0FC597294BB2EF003EE5DE /* CenouraInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0FC596294BB2EF003EE5DE /* CenouraInteractorTests.swift */; };
+		1D0FC599294BB301003EE5DE /* BatataInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0FC598294BB301003EE5DE /* BatataInteractorTests.swift */; };
+		1D0FC59C294BB90C003EE5DE /* BatataPresenterSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0FC59B294BB90C003EE5DE /* BatataPresenterSpy.swift */; };
+		1D0FC59E294BB924003EE5DE /* BatataServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0FC59D294BB924003EE5DE /* BatataServiceMock.swift */; };
+		1D0FC5A1294BB990003EE5DE /* CenouraPresenterOutputSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0FC5A0294BB990003EE5DE /* CenouraPresenterOutputSpy.swift */; };
+		1D0FC5A3294BB9B3003EE5DE /* CenouraServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0FC5A2294BB9B3003EE5DE /* CenouraServiceMock.swift */; };
+		1D0FC5A7294BBA9D003EE5DE /* BatataViewControllerSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0FC5A6294BBA9D003EE5DE /* BatataViewControllerSpy.swift */; };
+		1D0FC5A9294BBD8C003EE5DE /* CenouraInteractorSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0FC5A8294BBD8C003EE5DE /* CenouraInteractorSpy.swift */; };
+		1D0FC5AB294BBDC5003EE5DE /* CenouraViewControllerOutputSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0FC5AA294BBDC5003EE5DE /* CenouraViewControllerOutputSpy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,7 +65,6 @@
 		1D0FC554294B4EEB003EE5DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D0FC556294B4EEB003EE5DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D0FC55B294B4EEC003EE5DE /* ViewArchitectureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewArchitectureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1D0FC55F294B4EEC003EE5DE /* ViewArchitectureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewArchitectureTests.swift; sourceTree = "<group>"; };
 		1D0FC565294B4EEC003EE5DE /* ViewArchitectureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewArchitectureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D0FC569294B4EEC003EE5DE /* ViewArchitectureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewArchitectureUITests.swift; sourceTree = "<group>"; };
 		1D0FC56B294B4EEC003EE5DE /* ViewArchitectureUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewArchitectureUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -69,6 +78,17 @@
 		1D0FC58A294B50D8003EE5DE /* BatataFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatataFactory.swift; sourceTree = "<group>"; };
 		1D0FC58C294BA427003EE5DE /* BatataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatataService.swift; sourceTree = "<group>"; };
 		1D0FC58E294BAD11003EE5DE /* CenouraService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenouraService.swift; sourceTree = "<group>"; };
+		1D0FC592294BB2BE003EE5DE /* BatataPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatataPresenterTests.swift; sourceTree = "<group>"; };
+		1D0FC594294BB2E0003EE5DE /* CenouraPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenouraPresenterTests.swift; sourceTree = "<group>"; };
+		1D0FC596294BB2EF003EE5DE /* CenouraInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenouraInteractorTests.swift; sourceTree = "<group>"; };
+		1D0FC598294BB301003EE5DE /* BatataInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatataInteractorTests.swift; sourceTree = "<group>"; };
+		1D0FC59B294BB90C003EE5DE /* BatataPresenterSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatataPresenterSpy.swift; sourceTree = "<group>"; };
+		1D0FC59D294BB924003EE5DE /* BatataServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatataServiceMock.swift; sourceTree = "<group>"; };
+		1D0FC5A0294BB990003EE5DE /* CenouraPresenterOutputSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenouraPresenterOutputSpy.swift; sourceTree = "<group>"; };
+		1D0FC5A2294BB9B3003EE5DE /* CenouraServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenouraServiceMock.swift; sourceTree = "<group>"; };
+		1D0FC5A6294BBA9D003EE5DE /* BatataViewControllerSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatataViewControllerSpy.swift; sourceTree = "<group>"; };
+		1D0FC5A8294BBD8C003EE5DE /* CenouraInteractorSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenouraInteractorSpy.swift; sourceTree = "<group>"; };
+		1D0FC5AA294BBDC5003EE5DE /* CenouraViewControllerOutputSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenouraViewControllerOutputSpy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,7 +155,8 @@
 		1D0FC55E294B4EEC003EE5DE /* ViewArchitectureTests */ = {
 			isa = PBXGroup;
 			children = (
-				1D0FC55F294B4EEC003EE5DE /* ViewArchitectureTests.swift */,
+				1D0FC591294BB29E003EE5DE /* VIP */,
+				1D0FC590294BB297003EE5DE /* VIPER */,
 			);
 			path = ViewArchitectureTests;
 			sourceTree = "<group>";
@@ -187,6 +208,47 @@
 				1D0FC58C294BA427003EE5DE /* BatataService.swift */,
 			);
 			path = Workers;
+			sourceTree = "<group>";
+		};
+		1D0FC590294BB297003EE5DE /* VIPER */ = {
+			isa = PBXGroup;
+			children = (
+				1D0FC59F294BB980003EE5DE /* Mocks */,
+				1D0FC594294BB2E0003EE5DE /* CenouraPresenterTests.swift */,
+				1D0FC596294BB2EF003EE5DE /* CenouraInteractorTests.swift */,
+			);
+			path = VIPER;
+			sourceTree = "<group>";
+		};
+		1D0FC591294BB29E003EE5DE /* VIP */ = {
+			isa = PBXGroup;
+			children = (
+				1D0FC59A294BB8F7003EE5DE /* Mocks */,
+				1D0FC592294BB2BE003EE5DE /* BatataPresenterTests.swift */,
+				1D0FC598294BB301003EE5DE /* BatataInteractorTests.swift */,
+			);
+			path = VIP;
+			sourceTree = "<group>";
+		};
+		1D0FC59A294BB8F7003EE5DE /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				1D0FC59B294BB90C003EE5DE /* BatataPresenterSpy.swift */,
+				1D0FC59D294BB924003EE5DE /* BatataServiceMock.swift */,
+				1D0FC5A6294BBA9D003EE5DE /* BatataViewControllerSpy.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		1D0FC59F294BB980003EE5DE /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				1D0FC5A0294BB990003EE5DE /* CenouraPresenterOutputSpy.swift */,
+				1D0FC5A2294BB9B3003EE5DE /* CenouraServiceMock.swift */,
+				1D0FC5A8294BBD8C003EE5DE /* CenouraInteractorSpy.swift */,
+				1D0FC5AA294BBDC5003EE5DE /* CenouraViewControllerOutputSpy.swift */,
+			);
+			path = Mocks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -340,7 +402,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D0FC560294B4EEC003EE5DE /* ViewArchitectureTests.swift in Sources */,
+				1D0FC595294BB2E0003EE5DE /* CenouraPresenterTests.swift in Sources */,
+				1D0FC5A9294BBD8C003EE5DE /* CenouraInteractorSpy.swift in Sources */,
+				1D0FC5AB294BBDC5003EE5DE /* CenouraViewControllerOutputSpy.swift in Sources */,
+				1D0FC593294BB2BE003EE5DE /* BatataPresenterTests.swift in Sources */,
+				1D0FC59E294BB924003EE5DE /* BatataServiceMock.swift in Sources */,
+				1D0FC59C294BB90C003EE5DE /* BatataPresenterSpy.swift in Sources */,
+				1D0FC5A3294BB9B3003EE5DE /* CenouraServiceMock.swift in Sources */,
+				1D0FC5A7294BBA9D003EE5DE /* BatataViewControllerSpy.swift in Sources */,
+				1D0FC5A1294BB990003EE5DE /* CenouraPresenterOutputSpy.swift in Sources */,
+				1D0FC597294BB2EF003EE5DE /* CenouraInteractorTests.swift in Sources */,
+				1D0FC599294BB301003EE5DE /* BatataInteractorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

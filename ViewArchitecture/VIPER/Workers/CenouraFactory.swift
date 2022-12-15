@@ -9,7 +9,8 @@ import UIKit
 
 enum CenouraFactory {
     static func make() -> UIViewController {
-        let interactor: CenouraInteractorProtocol = CenouraInteractor()
+        let service: CenouraServiceProtocol = CenouraService()
+        let interactor: CenouraInteractorProtocol = CenouraInteractor(service: service)
         let presenter: CenouraPresenterInputProtocol = CenouraPresenter(interactor: interactor)
         let viewController: CenouraViewController = .init(presenter: presenter)
         
